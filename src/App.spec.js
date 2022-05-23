@@ -1,7 +1,7 @@
 
 import '@testing-library/jest-dom'
 import {render, fireEvent} from '@testing-library/svelte'
-import UserSearch from './src/lib/components/user-search/user-search.svelte'
+import UserSearch from './lib/components/user-search/user-search.svelte'
 
 test("should write in input", async () => {
   const { container } = render(UserSearch);

@@ -1,4 +1,4 @@
-<script lang="ts">
+<script>
     import TailwindCss from './TailwindCSS.svelte';
     import UserSearch from './lib/components/user-search/user-search.svelte';
 </script>
